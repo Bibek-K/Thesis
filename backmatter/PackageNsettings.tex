@@ -1,0 +1,55 @@
+%Set paragraphs
+\setlength{\parskip}{0.25em} %gap between paragraph
+\setlength{\parindent}{2.1em} %indentation of paragraph
+
+
+\usepackage{titling}
+\usepackage[utf8]{inputenc}
+\frenchspacing
+\usepackage{tabularx} %%get textwidth tables
+\usepackage{longtable}
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{siunitx} % for aligling in table
+\newcolumntype{d}{S[input-symbols = ()]}
+\usepackage{booktabs} % for importing table from excel
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lscape}
+\usepackage{subcaption}
+\usepackage{xspace} % To get the spacing after macros right
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage[T1]{fontenc} % for accented letters and better glyphs
+\usepackage{multirow} %for different rows in table
+\usepackage{tablefootnote} %for footnote in table
+\usepackage{dcolumn} %for stargazing package from r to import regression table in a neat format
+\usepackage{mparhack}
+\usepackage{setspace} % for double spacing
+\onehalfspacing
+\usepackage{bbm}
+\usepackage{amsfonts}%additional math fonts
+\usepackage[mathscr]{euscript} %additional math
+\usepackage[a4paper, left= 1.5 in , right=  1 in, top= 1 in, bottom= 1 in]{geometry} % for top bottom left right spacing
+\usepackage{hyperref}
+\hypersetup{
+%draft, % Uncomment to remove all links (useful for printing in black and white)
+linktocpage=true,
+colorlinks=true,
+breaklinks=true, %bookmarks=true, bookmarksnumbered,
+urlcolor=[RGB]{128,0,0},
+linkcolor=[RGB]{25,25,112},
+citecolor=[RGB]{0,0,0},  % Link colors
+pdftitle={Electoral impact on fiscal decision }, % PDF title
+pdfauthor={Bibek Pokharel}, % PDF Author
+pdfsubject={Political economics}, % PDF Subject
+pdfkeywords={Election, Federalism, Fiscal-Management, Accountability}, % PDF Keywords
+pdfcreator={Bibek }, % PDF Creator
+}
+
+\usepackage{apacite}
+
+\write18{del \jobname.aux}
+\write18{del \jobname.log}
+\write18{del \jobname.toc}
+\write18{del \jobname.loc}
