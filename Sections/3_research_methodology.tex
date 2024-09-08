@@ -64,9 +64,9 @@ Where:\\
 - \(\epsilon\) is the error term.\\
 Each coefficient \(\beta_1, \beta_2, \beta_3, \beta_4, \beta_5\) will represent the estimated effect of the corresponding independent variable on the variables of fiscal discipline.\\
 Since the cross sectional regression merges the panel observations, without taking account of time variation, and would not account for autocorrelations in the residuals, this study also runs a pooled regression with the following equation:
-\begin{equation}
-Y_{it} = \beta_0 + \beta_1 \text{HHI}_i + \beta_2 \text{VoterTurnout}_i + \beta_3 \text{HighEduRate}_i + \beta_4 \text{DumRM}_i + \beta_5 \text{DivControl}_i + \gamma_t D_t + \epsilon_{it}
-\end{equation}
+\begin{align}
+Y_{it} & = \beta_0 + \beta_1 \text{HHI}_i + \beta_2 \text{VoterTurnout}_i + \beta_3 \text{HighEduRate}_i \nonumber \\ &\quad + \beta_4 \text{DumRM}_i + \beta_5 \text{DivControl}_i + \gamma_t D_t + \epsilon_{it} 
+\end{align}
 Where:\\
 -\(Y_{it}\) = Dependent variable (Intrevtot, Revshrtot, Curexp, and Berujupc of local level  i at time  t.\\
 -\(HHI_{i}\), \(VoterTurnout_{i}\), \(HighEduRate_{i}\), \(DumRM_{i}\), \(DivControl_{i}\) = Time-invariant independent variables, same as in equation (1)\\
