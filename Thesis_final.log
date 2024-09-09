@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  8 SEP 2024 20:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  9 SEP 2024 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -531,7 +531,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 \l__pdf_internal_box=\box71
 )
-No file Thesis_final.aux.
+(./Thesis_final.aux)
 \openout1 = `Thesis_final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -552,6 +552,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
@@ -630,10 +631,12 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 4.
+(./Thesis_final.out) (./Thesis_final.out)
 \@outlinefile=\write3
 \openout3 = `Thesis_final.out'.
 
 \c@maskedRefs=\count329
+
 (/usr/local/texlive/2023/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
@@ -651,6 +654,11 @@ runsystem(del Thesis_final.loc)...disabled (restricted).
 
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Overfull \hbox (11.70753pt too wide) in paragraph at lines 60--62
+\T1/cmr/bx/n/12 ELEC-TORAL DY-NAM-ICS ON MU-NIC-I-PAL FIS-CAL MAN-AGE-MENT
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
@@ -706,6 +714,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--117
  []
 
 
+Underfull \hbox (badness 2856) in paragraph at lines 119--119
+[]|\T1/cmr/bx/n/12 Prof. Dr. Re-sham Ba-hadur
+ []
+
+
 Overfull \hbox (101.5969pt too wide) in paragraph at lines 118--123
 [][] 
  []
@@ -724,66 +737,11 @@ Overfull \hbox (101.5969pt too wide) in paragraph at lines 118--123
 
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 172--185
+Underfull \hbox (badness 10000) in paragraph at lines 172--187
 
  []
 
 [9]) (./sections/1_Introduction.tex [10]
-
-LaTeX Warning: Citation `Gilli2014' undefined on input line 5.
-
-
-LaTeX Warning: Citation `Rattso1998' undefined on input line 5.
-
-
-LaTeX Warning: Citation `Dafflon2002' undefined on input line 5.
-
-
-LaTeX Warning: Citation `Alt1994' undefined on input line 5.
-
-
-LaTeX Warning: Citation `Deborger1994' undefined on input line 6.
-
-
-LaTeX Warning: Citation `Worthington2000' undefined on input line 6.
-
-
-LaTeX Warning: Citation `Geys2006' undefined on input line 6.
-
-
-LaTeX Warning: Citation `Bruns2008' undefined on input line 6.
-
-
-LaTeX Warning: Citation `Gray2006' undefined on input line 6.
-
-
-LaTeX Warning: Citation `Iimi2005' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Sasana2019' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Carniti2019' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Baskaran2016' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Weingast2014' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Sargent2012' undefined on input line 8.
-
-
-LaTeX Warning: Citation `Riker1964' undefined on input line 8.
-
-
-LaTeX Warning: Citation `Huberfeld2020' undefined on input line 8.
-
-
-LaTeX Warning: Citation `Peterson1995' undefined on input line 8.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
@@ -794,76 +752,13 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 
-      [1] (./table/table1.tex
+      [1] [2] (./table/table1.tex
 Overfull \hbox (64.61116pt too wide) in paragraph at lines 3--17
  [][] 
  []
 
-[2])
-
-LaTeX Warning: Citation `Agrawal2000' undefined on input line 12.
-
-
-LaTeX Warning: Citation `North1981' undefined on input line 12.
-
-
-LaTeX Warning: Citation `Rosen2016' undefined on input line 13.
-
-
-LaTeX Warning: Citation `Eckardt2008' undefined on input line 14.
-
-
-LaTeX Warning: Citation `Blair2000' undefined on input line 14.
-
-
-LaTeX Warning: Citation `Przeworski1999' undefined on input line 14.
-
-[3]
-
-LaTeX Warning: Citation `Stigler1972' undefined on input line 20.
-
-
-LaTeX Warning: Citation `Barro1973' undefined on input line 20.
-
-
-LaTeX Warning: Citation `Ferejohn1986' undefined on input line 21.
-
-
-LaTeX Warning: Citation `Manin1997' undefined on input line 21.
-
-
-LaTeX Warning: Citation `Fearon1999' undefined on input line 21.
-
-
-LaTeX Warning: Citation `Besley2002' undefined on input line 21.
-
-
-LaTeX Warning: Citation `Galligan1990' undefined on input line 22.
-
-
-LaTeX Warning: Citation `Musgrave1983' undefined on input line 22.
-
-
-LaTeX Warning: Citation `Estrella2003' undefined on input line 23.
-
-
-LaTeX Warning: Citation `Andrews2003' undefined on input line 23.
-
-
-LaTeX Warning: Citation `Uphoff2005' undefined on input line 23.
-
-
-LaTeX Warning: Citation `Banks1998' undefined on input line 23.
-
-
-LaTeX Warning: Reference `Heatmap of Voting turnout' on page 4 undefined on inp
-ut line 24.
-
-
-LaTeX Warning: Reference `Heatmap of HH index' on page 4 undefined on input lin
-e 24.
-
-<figure/vote1.png, id=269, 975.645pt x 576.1525pt>
+) [3] [4]
+<figure/vote1.png, id=427, 975.645pt x 576.1525pt>
 File: figure/vote1.png Graphic file (type png)
 <use figure/vote1.png>
 Package pdftex.def Info: figure/vote1.png  used on input line 28.
@@ -873,7 +768,7 @@ Overfull \hbox (66.90125pt too wide) in paragraph at lines 27--29
  [] 
  []
 
-<figure/HHI.png, id=271, 1182.4175pt x 683.55376pt>
+<figure/HHI.png, id=429, 1182.4175pt x 683.55376pt>
 File: figure/HHI.png Graphic file (type png)
 <use figure/HHI.png>
 Package pdftex.def Info: figure/HHI.png  used on input line 35.
@@ -883,190 +778,86 @@ Overfull \hbox (66.87679pt too wide) in paragraph at lines 34--36
  [] 
  []
 
-
-LaTeX Warning: Citation `Geys2010' undefined on input line 39.
-
-[4] [5] [6 <./figure/vote1.png>] [7 <./figure/HHI.png>] [8]
-
-LaTeX Warning: Citation `Saey1998' undefined on input line 58.
-
-[9] [10]) (./sections/2_review_of_literature.tex [11]
-
-LaTeX Warning: Citation `Downs1957' undefined on input line 7.
-
-
-LaTeX Warning: Citation `Baron1994' undefined on input line 8.
-
-
-LaTeX Warning: Citation `Grossman1996' undefined on input line 9.
-
-
-LaTeX Warning: Citation `Alesina1996' undefined on input line 10.
-
-
-LaTeX Warning: Citation `Smart2013' undefined on input line 11.
-
-
-LaTeX Warning: Citation `Foucault2017' undefined on input line 12.
-
-
-LaTeX Warning: Citation `Aidt2017' undefined on input line 13.
-
-
-LaTeX Warning: Citation `Charbonneau2021' undefined on input line 14.
-
-[12] [13] [14] [15] [16]
-
-LaTeX Warning: Citation `Besley1995' undefined on input line 19.
-
-
-LaTeX Warning: Citation `Kalseth1998' undefined on input line 20.
-
-
-LaTeX Warning: Citation `Martinussen2004' undefined on input line 22.
-
-
-LaTeX Warning: Citation `Cutler2008' undefined on input line 23.
-
-
-LaTeX Warning: Citation `Gevasoni2010' undefined on input line 25.
-
-
-LaTeX Warning: Citation `Skoufias2011' undefined on input line 26.
-
-
-LaTeX Warning: Citation `Ferraz2011' undefined on input line 28.
-
-
-LaTeX Warning: Citation `Jones2012' undefined on input line 29.
-
-
-LaTeX Warning: Citation `Gemmell2013' undefined on input line 30.
-
-
-LaTeX Warning: Citation `Gelineau2013' undefined on input line 31.
-
-
-LaTeX Warning: Citation `Porcelli2014' undefined on input line 32.
-
-
-LaTeX Warning: Citation `Fossati2018' undefined on input line 33.
-
-
-LaTeX Warning: Citation `Veiga2019' undefined on input line 34.
-
-
-LaTeX Warning: Citation `Marin2021' undefined on input line 35.
-
-
-LaTeX Warning: Citation `Mendoza2021' undefined on input line 36.
-
-[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
-[32]) (./sections/3_research_methodology.tex
+[5] [6] [7 <./figure/vote1.png> <./figure/HHI.png>] [8] [9] [10])
+(./sections/2_review_of_literature.tex [11] [12] [13] [14] [15] [16] [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32]
+[33]) (./sections/3_research_methodology.tex
 Underfull \hbox (badness 10000) in paragraph at lines 39--1
 
  []
 
-[33] [34]
+[34] [35] [36]
+<figure/Conframe1.png, id=684, 574.145pt x 522.95375pt>
+File: figure/Conframe1.png Graphic file (type png)
+<use figure/Conframe1.png>
+Package pdftex.def Info: figure/Conframe1.png  used on input line 15.
+(pdftex.def)             Requested size: 200.95375pt x 183.03654pt.
 
-LaTeX Warning: Reference `Conceptual Framework' on page 35 undefined on input l
-ine 10.
-
-[35]
-<figure/Conframe.png, id=527, 594.22pt x 507.8975pt>
-File: figure/Conframe.png Graphic file (type png)
-<use figure/Conframe.png>
-Package pdftex.def Info: figure/Conframe.png  used on input line 15.
-(pdftex.def)             Requested size: 237.68379pt x 203.1554pt.
-
-Overfull \hbox (66.91977pt too wide) in paragraph at lines 14--16
+Overfull \hbox (38.44681pt too wide) in paragraph at lines 14--16
  [] 
  []
 
-[36 <./figure/Conframe.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+<figure/Conframe2.png, id=685, 578.16pt x 577.15625pt>
+File: figure/Conframe2.png Graphic file (type png)
+<use figure/Conframe2.png>
+Package pdftex.def Info: figure/Conframe2.png  used on input line 23.
+(pdftex.def)             Requested size: 202.35902pt x 202.0077pt.
+
+Overfull \hbox (38.44403pt too wide) in paragraph at lines 22--24
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./figure/Conframe1.png>] [38 <./figure/Conframe2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
 
  []
 
-[37] [38]
+[39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 64--77
 
-LaTeX Warning: Citation `Wooldridge2009' undefined on input line 49.
-
-
-LaTeX Warning: Citation `Wooldridge2010' undefined on input line 49.
-
-
-Overfull \hbox (83.37234pt too wide) detected at line 55
-[][][]\OML/cmm/m/it/12 FiscalDiscipline[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^
-L[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[]HHI[] \OT1/cmr/m/n/12 + \OML/cmm/m/
-it/12 ^^L[]VoterTurnout[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[]Divcontrol[] 
-\OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^L[]highedu[] \OT1/cmr/m/n/12 + \OML/cmm/m/
-it/12 ^^L[]DumRM[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 ^^O
  []
 
-[39]
-Overfull \hbox (2.46855pt too wide) in paragraph at lines 69--76
-\T1/cmr/m/n/12 -$\OML/cmm/m/it/12 HHI[]$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 Vote
-rTurnout[]$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 HighEduRate[]$\T1/cmr/m/n/12 , $\
-OML/cmm/m/it/12 DumRM[]$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 DivControl[]$ \T1/cm
-r/m/n/12 = Time-invariant
- []
-
-) (./sections/4_analysis_discussion.tex [40] [41] [42]
+[41]) (./sections/4_analysis_discussion.tex [42] [43] [44]
 Underfull \hbox (badness 10000) in paragraph at lines 67--98
 
  []
 
-[43]
+[45]
 Overfull \hbox (15.09514pt too wide) in paragraph at lines 98--98
 []\T1/cmr/bx/n/14.4 Objective 2 re-lated: Re-sults from Pooled-Regression Anal-
 
  []
 
-) (./sections/5_summary_conclusion.tex [44] [45] [46]
+) (./sections/5_summary_conclusion.tex [46] [47] [48]
 Overfull \hbox (6.15675pt too wide) in paragraph at lines 14--15
 []\T1/cmr/bx/n/12 Promote ed-u-ca-tional at-tain-ment: \T1/cmr/m/n/12 The pos-i
 -tive cor-re-la-tion be-tween higher
  []
 
-[47]) [48] (./Thesis_final.bbl
+[49]) [50] (./Thesis_final.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 76.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [49] [50]
+) [51] [52]
 Underfull \hbox (badness 1354) in paragraph at lines 907--920
 []\T1/cmr/m/n/12 Grossman, G., & Help-man, E.  (1996).  \T1/cmr/m/it/12 Elec-to
 ral com-pe-ti-tion with pol-
  []
 
-[51] [52]) [53] (./Thesis_final.aux
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Thesis_final.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Thesis_final.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  770576CA39CD02657C802E6B0D6962CB;6964.
+[53] [54]) [55] (./Thesis_final.aux)
+Package rerunfilecheck Info: File `Thesis_final.out' has not changed.
+(rerunfilecheck)             Checksum: 0221447700AB3DF2A09EC2F9FE920128;6964.
  ) 
 Here is how much of TeX's memory you used:
- 17568 strings out of 476025
- 338199 string characters out of 5790017
+ 17685 strings out of 476025
+ 340065 string characters out of 5790017
  1949388 words of memory out of 5000000
- 37531 multiletter control sequences out of 15000+600000
+ 37638 multiletter control sequences out of 15000+600000
  528016 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,16n,80p,3934b,1027s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1088,10 +879,10 @@ ve/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2023/texm
 f-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Thesis_final.pdf (63 pages, 2494610 bytes).
+Output written on Thesis_final.pdf (65 pages, 2575373 bytes).
 PDF statistics:
- 756 PDF objects out of 1000 (max. 8388607)
- 642 compressed objects within 7 object streams
- 208 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 803 compressed objects within 9 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
