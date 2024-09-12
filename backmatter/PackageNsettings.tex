@@ -31,6 +31,13 @@
 \usepackage{amsfonts}%additional math fonts
 \usepackage[mathscr]{euscript} %additional math
 \usepackage[a4paper, left= 1.5 in , right=  1 in, top= 1 in, bottom= 1 in]{geometry} % for top bottom left right spacing
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\filcenter}  % Format for section title, centered
+  {Chapter \Roman{section}:}              % Chapter I, II, III, etc.
+  {1em}                                   % Space between label and title
+  {}                                      % No additional formatting after title
+
 \usepackage{hyperref}
 \hypersetup{
 %draft, % Uncomment to remove all links (useful for printing in black and white)

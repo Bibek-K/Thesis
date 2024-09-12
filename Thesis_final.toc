@@ -1,12 +1,12 @@
-\contentsline {section}{Declaration}{ii}{section*.1}%
-\contentsline {section}{Letter of Recommendation}{iii}{section*.2}%
-\contentsline {section}{Approval Sheet}{iv}{section*.3}%
-\contentsline {section}{Acknowledgements}{v}{section*.4}%
-\contentsline {section}{Table of Contents}{vii}{section*.5}%
-\contentsline {section}{List of Tables}{viii}{section*.7}%
-\contentsline {section}{List of Figures}{viii}{section*.9}%
-\contentsline {section}{List of Abbreviations}{ix}{section*.10}%
-\contentsline {section}{Abstract}{x}{section*.11}%
+\contentsline {section}{Declaration}{ii}{Doc-Start}%
+\contentsline {section}{Letter of Recommendation}{iii}{Doc-Start}%
+\contentsline {section}{Approval Sheet}{iv}{Doc-Start}%
+\contentsline {section}{Acknowledgements}{v}{Doc-Start}%
+\contentsline {section}{Table of Contents}{vii}{Doc-Start}%
+\contentsline {section}{List of Tables}{viii}{Doc-Start}%
+\contentsline {section}{List of Figures}{ix}{Doc-Start}%
+\contentsline {section}{List of Abbreviations}{x}{Doc-Start}%
+\contentsline {section}{Abstract}{xi}{Doc-Start}%
 \contentsline {section}{\numberline {1}INTRODUCTION}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Background of the Study}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Statement of the Problems}{8}{subsection.1.2}%
@@ -18,26 +18,26 @@
 \contentsline {section}{\numberline {2}REVIEW OF LITERATURES}{13}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Introduction}{13}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Theoretical Review}{13}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Empirical Review}{18}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Literature Gap}{34}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.3}Empirical Review}{19}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Literature Gap}{35}{subsection.2.4}%
 \contentsline {section}{\numberline {3}RESEARCH METHODOLOGY}{36}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Introduction}{36}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Research Design}{36}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Conceptual Framework}{36}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Sources of data}{37}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Operational Definitions of Variables}{39}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Tools of analysis}{40}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Descriptive Analysis}{40}{subsubsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6}Tools of analysis}{41}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Descriptive Analysis}{41}{subsubsection.3.6.1}%
 \contentsline {subsubsection}{\numberline {3.6.2}Explanatory Analysis}{41}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Model Specification}{41}{subsubsection.3.6.3}%
-\contentsline {section}{\numberline {4}ANALYSIS AND DISCUSSION}{43}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Descriptive Analysis}{43}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Electoral influences on fiscal discipline in Nepal}{44}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Correlation Analysis}{44}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Results from Cross-Sectional Regression Analysis}{45}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Objective 2 related: Results from Pooled-Regression Analysis}{47}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Discussion}{47}{subsection.4.4}%
-\contentsline {section}{\numberline {5}SUMMARY AND CONCLUSION}{48}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Introduction}{48}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Summary and Conclusion}{48}{subsection.5.2}%
-\contentsline {section}{References}{51}{section*.22}%
+\contentsline {subsubsection}{\numberline {3.6.3}Model Specification}{42}{subsubsection.3.6.3}%
+\contentsline {section}{\numberline {4}ANALYSIS AND DISCUSSION}{44}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Descriptive Analysis}{44}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Electoral influences on governance performance of local levels}{45}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Correlation Analysis}{45}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Results from Pooled Regression Analysis}{46}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Governance performance influence on fiscal discipline -show corr vif here again}{48}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Discussion}{48}{subsection.4.4}%
+\contentsline {section}{\numberline {5}SUMMARY AND CONCLUSION}{49}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{49}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Summary and Conclusion}{50}{subsection.5.2}%
+\contentsline {section}{References}{53}{Item.26}%
