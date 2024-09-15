@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  12 SEP 2024 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.25)  15 SEP 2024 15:18
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Thesis_final.tex
 (./Thesis_final.tex
@@ -748,19 +747,14 @@ Overfull \hbox (101.5969pt too wide) in paragraph at lines 118--123
 \tf@lof=\write6
 \openout6 = `Thesis_final.lof'.
 
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 172--187
-
- []
-
-[10]) (./sections/1_Introduction.tex [11]
+ [9] [10]) (./sections/1_Introduction.tex [11]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 ...ents to development\cite{Weingast2014}.\par
                                                    [1] [2] (./table/table1.tex
-Overfull \hbox (64.61116pt too wide) in paragraph at lines 3--17
+Overfull \hbox (64.61116pt too wide) in paragraph at lines 4--18
  [][] 
  []
 
@@ -842,44 +836,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./sections/5_summary_conclusion.tex [48] [49] [50]
+) (./sections/5_summary_conclusion.tex [48] [49]
 Overfull \hbox (6.15675pt too wide) in paragraph at lines 14--15
 []\T1/cmr/bx/n/12 Promote ed-u-ca-tional at-tain-ment: \T1/cmr/m/n/12 The pos-i
 -tive cor-re-la-tion be-tween higher
  []
 
-[51]) [52] (./Thesis_final.bbl
+[50]) [51] (./Thesis_final.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 76.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-) [53] [54]
+) [52] [53]
 Underfull \hbox (badness 1354) in paragraph at lines 907--920
 []\T1/cmr/m/n/12 Grossman, G., & Help-man, E.  (1996).  \T1/cmr/m/it/12 Elec-to
 ral com-pe-ti-tion with pol-
  []
 
-[55] [56]) [57] (./Thesis_final.aux
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+[54] [55]) [56] (./Thesis_final.aux)
 Package rerunfilecheck Info: File `Thesis_final.out' has not changed.
-(rerunfilecheck)             Checksum: D03EC6B58985F3EF675741AA07E2B973;7074.
+(rerunfilecheck)             Checksum: 5703C01219FBD9CE080CE62EFE63B393;7609.
  ) 
 Here is how much of TeX's memory you used:
- 17971 strings out of 476025
- 343988 string characters out of 5790017
+ 17967 strings out of 476025
+ 343879 string characters out of 5790017
  1878388 words of memory out of 5000000
- 37923 multiletter control sequences out of 15000+600000
+ 37921 multiletter control sequences out of 15000+600000
  528016 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  80i,16n,80p,3969b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -901,10 +884,10 @@ ve/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/te
 xmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2023/texm
 f-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Thesis_final.pdf (68 pages, 2581540 bytes).
+Output written on Thesis_final.pdf (67 pages, 2580239 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 208 named destinations out of 1000 (max. 500000)
+ 920 PDF objects out of 1000 (max. 8388607)
+ 799 compressed objects within 8 object streams
+ 206 named destinations out of 1000 (max. 500000)
  365 words of extra memory for PDF output out of 10000 (max. 10000000)
 
