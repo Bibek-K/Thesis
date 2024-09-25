@@ -35,18 +35,20 @@ The variables of fiscal discipline also show interesting dynamics. These variabl
 Similarly, the variables of the government performance scores on different aspects of local governments, also shows interesting dynamics, The total scores of the local governments in the three year periods ranges from 5.25 to 97.5, with a mean score of 58.930. Other components of the total scores are normalized and shows how they differ across the local governments in Nepal.
 \subsection{Electoral influences on governance performance of local levels}
 \subsubsection{Correlation Analysis}
-In this section, the correlation among the regressor variables, for the two regressions, are analyzed to ensure that there is no multicollinearity among the regressor. Since our regressors are HHI, VoterTurnout, Highedu, Divcontrol, Employ, and DumRM, for the first regression, the correlation Analysis will look at the correlation among them, as shown is the Table 3.\\
+In this section, the correlation among the regressor variables, for the pooled regressions, are analyzed to ensure that there is no multicollinearity among the regressor. Since our regressors are HHI, VoterTurnout, Highedu, Divcontrol, Employ, and DumRM, for the first regression, the correlation Analysis will look at the correlation among them, as shown is the Table 3.\\
 \begin{table}[ht]
 \centering
 \begin{tabular}{ccccccc}
 
     & HHI & VoteTurnout & Highedu & DumRM & Divcontrol & Employ\\ 
+    \hline
 HHI & 1.000 &  &  &  & &  \\ 
 VoteTurnout & -0.1195 & 1.000 & &  & &  \\ 
 Highedu & 0.087 & 0.084 & 1.000& & & \\ 
 DumRM & 0.1291 & -0.097 & -0.372 & 1.000 & & \\ 
 Divcontrol & 0.095 & 0.047 & 0.042 & -0.049 & 1.000 & \\ 
 Employ & -0.380 & 0.328 & 0.434 & -0.397 & 0.001 & 1.000 \\
+\hline
 \end{tabular}
 \caption{Correlation Matrix}
 \label{Correlation Matrix}
@@ -58,6 +60,7 @@ The following table checks for the multicollinearity using the VIF.
 \begin{tabular}{cccc}
 
      Variables & VIF & 1/VIF \\ 
+     \hline
 HHI & 1.28 &0.781    \\ 
 VoteTurnout & 1.15& 0.991  \\ 
 Employ & 1.88 & 0.531\\
@@ -66,12 +69,13 @@ DumRM &1.28 & 0.781 \\
 Divcontrol &1.01 & 0.990 \\ 
 Year.2077 & 1.47& 0.681 \\
 Year.2078 & 1.47 & 0.681\\
+\hline
 Mean VIF & 1.38 & \\
 \end{tabular}
 \caption{VIF- Multicolinearity Test}
 \label{VIF- Multicolinearity Test}
 \end{table}
-As table 4 shows, this study would not have concern with implementing pooled regression model as the variables are not correlated to each other, allowing for a more reliable coefficient estimates.
+As tables 3 and 4 show, this study would not have concern with implementing pooled regression model as the variables are not correlated to each other, allowing for a more reliable coefficient estimates.
 \
 \subsubsection{Results from Pooled Regression Analysis}
 Using  equation(1) from the model specification subsection of Research Methodology section, this study carried out pooled regression to explore the relationship between independent and dependent variables. The dependent variable(Y) are the scores of the local government performance, including TotScore, GovtProv, ServDeliv, BudgPlan, and PhyInfra,  while independent variables(X) are HHI, VoteTurnout, Highedu, DumRM, Employ and Divcontrol. The result of the regressions are given in the table(5).\\
@@ -105,11 +109,79 @@ R-squared &0.1838 & 0.1219 & 0.1816 & 0.1172 & 0.1288  \\
 Table 5 shows the regression output and thus, the relationship among variables. HHI, the index of electoral competition, is highly significant across all the dependent variables, and the direction is as the study expected in the earlier sections. Our regression table agrees with the realm of literature which concede that high electoral competition produces winners who are not guaranteed to win the next election, thus, they aim to maximize their own rent seeking and profiteering behavior while in office. Thus, as HHI increases, the electoral competition decreases, and it would cause the increase in the total score and other scores of the governance performance of local levels as less competitive jurisdiction mayors perceive more chances of winning and are motivated to govern in an accountable and responsible fashion.  Voting Turnout also plays the similar role as it shows significant and negative association with the scores of governance performance. As Voting turnout increases, more people are directly involved in the selection of the candidates, the winning candidates might infer that it would be difficult to win the next election, and thus involve themselves with maximizing the rent seeking behavior. Jurisdiction where turnout is low, seems to encourage mayors to perform better with the hope of being reelected in the next election. \par
 The presence of highly educated people also affects the scores of governance performance in a positive and significant manners. More presence of educated people would better use their `sanction and selection' power, thus, encouraging the mayors to improve performance metrics as well as encouraging the losing candidates to better analyze the decisions of the mayors and to  prepare well for the next election. The dummy variable for the rural and municipal jurisdiction significantly affects the performance scores of the government. As the table shows, being a rural-municipality would lower the total score and the scores across other performance variables of the local governments, more so than other variables of the regression model. \par
 There is a significant and positive effect of years in the scores of the governance performance measures in this model. It could be because of bevy of factors but it could chiefly be because of the fact that the data keeping and entry methods were improved in subsequent years, and that the impact of COVID-19 were extreme on the beginning of the time frame of data collection of governmental scores. The R-Squared measure of different equations are provided at the end of the table. The R squared values are relative low, as there could be other variables that are missing from this model.  It should be noted that in economics, like in other social science disciplines, the behaviors of people are complex and the explanatory power of model of human behaviors are usually at the lower end of the spectrum.\\
-\subsection{Governance performance influence on fiscal discipline - using panel regression result here:show corr vif here again, with Hausman test, B-P tests, stationary test and other tests}
-This section performs the panel regression to investigate the relationship between the score of the governance performance and the variables of fiscal management and discipline. 
+\subsection{Governance performance influence on fiscal discipline - using panel regression result here:show  , with Hausman test, BP LM tests, stationary test and other tests here.}
+This section performs the panel regression to investigate the relationship between the score of the governance performance and the variables of fiscal management and discipline. First, correlation and VIF analysis will be conducted to test for multicollinearity among the regressor, then Breusch-Pagan Lagrange Multiplier test would be carried out for for determining between pooled OLS regression and panel regression, followed by Hausman test to determine whether random effect or fixed effect panel regression should be used. Also, Heteroskedasticity and serial autocorrelation will be tested along with cross-sectional dependance and unit root tests. 
+\subsubsection{Correlation Analysis}
+In this section, the correlation among the regressor variables are checked to ensure that there is no excessive multicollinearity among them. Since our regressors are Total Score, Employment, DumRM, Highedu, and Divcontrol, the correlation Analysis will look at the correlation among them, as shown is the Table 6.\par
+\begin{table}[ht]
+\centering
+\begin{tabular}{cccccc}
 
+    & Total\_Score & Employ & DumRM & Highedu & Divcontrol \\ 
+    \hline
+Total\_Score & 1.000 &  &  &  &   \\ 
+Employ & 0.017 & 1.000 & &  &  \\ 
+DumRM &- 0.141 & -0.407 & 1.000& &  \\ 
+Highedu & 0.221 & 0.471 & -0.389 &  1.000&  \\ 
+Divcontrol & 0.000 & -0.006 & -0.041 & 0.035 &1.000   \\ 
+\hline
 
+\end{tabular}
+\caption{Correlation Matrix for Panel variables}
+\label{Correlation Matrix-Panel}
+\end{table}
+From Table 6, there seems to be no high correlation among variables for the problem of multi-collinearity to arise, as the variables are similar to those used in correlation analysis of Table 3. Explanations for the relatively high correlation between selected variables are already given previous sections and thus, this study now checks for VIF. Panel regressions account for variability across both cross-sectional units and time, which complicates the calculation and interpretation of the VIF. Thus, this study calculates VIF based on the pooled regression approach as it provides a good approximation for the multicollinearity among variables while conducting panel regression. \par
+\begin{table}[ht]
+\centering
+\begin{tabular}{cccc}
 
-
+     Variables & VIF & 1/VIF \\ 
+     \hline
+Highedu & 1.43 &0.697  \\ 
+Employ & 1.41  & 0.707\\
+DumRM &1.29 & 0.776\\ 
+Total\_Score & 1.07& 0.933  \\ 
+Divcontrol &1.00 & 0.996 \\ 
+\hline
+Mean VIF & 1.24 & \\
+\end{tabular}
+\caption{VIF- Multicolinearity Test for panel regression}
+\label{VIF- Multicolinearity Test for panel regression}
+\end{table}
+As Tables 6 and 7 show, there is no considerable degree of multi-correlation among the variables to be used as the regressors. Thus, we can safely proceed towards checking if the pooled regression would be sufficient or the panel regression would be needed in the next sub-section.\par
+\subsubsection{Breusch-Pagan LM Test}
+Breusch-Pagan LM test would check whether the data demands the panel regression  or the pooled regression would suffice. This test checks if the cross-sectional units in the panel has the same intercept or a different intercept. Thus, we run both, pooled and random effect panel regression and determine this test statistic to determine which regression model is better suited for our analysis. This test yields the following result:\par
+\begin{table}[H]
+  \centering
+   \begin{tabular}{c|cc}
+     Variables &Chibar2(01) & \(prob>chibar2\) \\
+        \hline
+    Intrevtot & 332 &0.000\\
+    Revshrtot & 203.25 &0.000 \\
+    Curexp & 33.71 & 0.000\\
+    Beruju & 109.2 & 0.000 \\
+    \hline
+    \end{tabular}
+    \caption{Breusch-Pagan LM Test }  
+     \label{Breusch-Pagan LM Test }
+\end{table} 
+As the result indicate that p-value = 0.000, for all the dependent variables , we conclude that the Pooled OLS model is not efficient estimator for our analysis. Thus, this study would be using panel regression model to explain the relationship between the governance scores of the local levels and the fiscal performance.
+\subsubsection{Hausman Test}
+Breusch-Pagan LM test suggests that the data is not pool-able and panel regression must be conducted. We administer Hausman test to further determine which type of panel regression, fixed effect or random effect, is more suited for the analysis. Since our independent variables contain both time variant and time invariant characteristics, it is essential that we test which model, random or fixed effect would be more appropriate for the analysis. \par
+Hausman test helps decide between fixed and random effect model by testing if the unobserved heterogeneity are correlated with the regressors. In the fixed effect model, it is assumed that individual specific effects are correlated with the independent variables, thus, it drops time-invariant regressors, while random effect model assumes that individual specific effects are uncorrelated with the independent variables, thus, it doesn't drop the time-invariant variables, and include those individual effects as a part of error term. Thus, we first run the fixed effect regression, store its estimates, then run the random effect regression and store its estimates, then perform the Hausman test on the stored estimates to determine which regression model is more appropriate. In this test, lower p-value, usually less than 0.05, indicates that fixed effect model is more appropriate, while higher p-value indicates that random effect regression is better suited. The result of the Hausman test is as follows: \par
+\begin{table}[H]
+  \centering
+   \begin{tabular}{c|cc}
+     Variables &Chi2(1) & \(prob>chi\) \\
+        \hline
+    Intrevtot & 0.2 &0.6581\\
+    Revshrtot & 2.84 &0.092\\
+    Curexp & 33.71 & 0.000\\
+    Beruju & 109.2 & 0.000 \\
+    \hline
+    \end{tabular}
+    \caption{Hausman Test }  
+     \label{Hausman Test }
+\end{table} 
 \subsection{Discussion}
 

@@ -35,9 +35,12 @@
 \contentsline {subsection}{\numberline {4.2}Electoral influences on governance performance of local levels}{45}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Correlation Analysis}{45}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Results from Pooled Regression Analysis}{46}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Governance performance influence on fiscal discipline - using panel regression result here:show corr vif here again, with Hausman test, B-P tests, stationary test and other tests}{48}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Discussion}{48}{subsection.4.4}%
-\contentsline {section}{\numberline {5}SUMMARY AND CONCLUSION}{49}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Introduction}{49}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Summary and Conclusion}{49}{subsection.5.2}%
-\contentsline {section}{References}{52}{Item.26}%
+\contentsline {subsection}{\numberline {4.3}Governance performance influence on fiscal discipline - using panel regression result here:show , with Hausman test, BP LM tests, stationary test and other tests here.}{48}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Correlation Analysis}{48}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Breusch-Pagan LM Test}{49}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Hausman Test}{50}{subsubsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}Discussion}{51}{subsection.4.4}%
+\contentsline {section}{\numberline {5}SUMMARY AND CONCLUSION}{52}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Introduction}{52}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Summary and Conclusion}{52}{subsection.5.2}%
+\contentsline {section}{References}{55}{Item.26}%
